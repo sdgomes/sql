@@ -1,0 +1,13 @@
+        private static readonly string _connectionStringFindFolderProducao = "Data Source=SQL006\\SQL006_SITE; Database=programas; Uid=ti; Pwd=ti_123456; Encrypt=False;";
+        private static readonly string _connectionStringFindFolderHomologacao = "Data Source=SQL003; Database=programas; Uid=IT; Pwd=123456; Encrypt=False;";
+        private static readonly string _connectionStringSigaProducao = "Data Source=SQL007\\SQL007_ERP; Database=P5DADOS; Uid=devmaster; Pwd=*dev123456; Encrypt=False;";
+        private static readonly string _connectionStringSigaHomologacao = "Data Source=SQL003; Database=P5DADOS_HOM; Uid=IT; Pwd=123456; Encrypt=False;";
+        private static readonly string _linkedServerSIGAProducao = "P5DADOS";
+        private static readonly string _nomeDBSigaProducao = "P5DADOS";
+        private static readonly string _nomeDBSigaHomologacao = "P5DADOS_HOM";
+        private static readonly string _linkedServerFindFolderProducao = "SITE";
+        private static readonly string _nomeDBFindFolderProducao = "programas";
+        private static readonly string _nomeDBFindFolderHomologacao = "programas";
+        private static readonly string _raizAnexos = "/FindFolder/Anexos";
+        private static readonly string _caminhoFisicoAnexos = @"E:\AnexosPortais\FindFolder\Anexos";
+        private static readonly string _caminhoFisicoAnexosHomologacao = @"D:\AnexosPortais\FindFolder\Anexos";
