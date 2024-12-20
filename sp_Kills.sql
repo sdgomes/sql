@@ -55,5 +55,6 @@ BEGIN
 
     SET NOCOUNT OFF;
 END
-
-EXEC sp_MS_marksystemobject 'sp_WhoIsActive';
+GO
+    
+EXEC sp_MS_marksystemobject 'sp_Kills';
